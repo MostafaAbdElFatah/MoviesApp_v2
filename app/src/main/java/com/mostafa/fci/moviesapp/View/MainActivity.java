@@ -66,6 +66,8 @@ public class MainActivity extends AppCompatActivity implements IView{
         mPresenter = new Presenter(this);
     }
 
+
+
     @Override
     protected void onStop() {
         super.onStop();
